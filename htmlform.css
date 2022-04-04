@@ -1,0 +1,18 @@
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+input {
+    border: 2px solid red;
+    background-color: darkred;
+    color: white;
+}
+   
+input[type="submit"]{
+    border: 2px solid blue;
+    background-color: grey;
+}

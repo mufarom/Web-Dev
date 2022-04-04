@@ -1,0 +1,21 @@
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 100%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    border: 2px solid #ddd;
+    color: #fff;
+    background-color: #555;
+}
+
+input::placeholder {
+    color: #ccc;
+}

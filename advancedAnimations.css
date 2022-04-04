@@ -1,0 +1,22 @@
+section {
+    width: 10em;
+    height: 10em;
+    background-color: chartreuse;
+    border-radius: 20%;
+    animation: move 2s infinite ease-in;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(80vw, 0);
+    }
+
+    100%{
+        transform: translate(0, 0);
+    }
+
+}
